@@ -1,0 +1,46 @@
+import AudioRecorder from '@/components/AudioRecorder';
+import Image from 'next/image';
+import Link from 'next/link';
+
+export default function Home() {
+  return (
+    <main className="min-h-[100dvh] bg-[#0A0714] flex flex-col items-center justify-start p-4 sm:p-12 pt-16 sm:pt-20 selection:bg-brand-red selection:text-white relative overflow-x-hidden">
+      
+      {/* Decorative dark background glows */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
+        <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[60%] rounded-full bg-indigo-600/10 filter blur-[100px] animate-pulse-slow"></div>
+        <div className="absolute top-[30%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/10 filter blur-[100px] animate-pulse-slow" style={{ animationDelay: '2s' }}></div>
+      </div>
+
+      {/* Investor Pitch Link */}
+      <div className="absolute top-6 right-6 z-50">
+          <Link href="/pitch" className="inline-flex items-center px-4 py-2 bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/10 rounded-full text-xs font-bold text-slate-300 hover:text-white transition-all shadow-[0_0_20px_rgba(0,0,0,0.2)]">
+              <span>Pitch Deck ✨</span>
+          </Link>
+      </div>
+
+      {/* Hero Header for Investors */}
+      <div className="relative z-20 flex flex-col items-center w-full max-w-4xl mx-auto text-center mb-16 animate-in slide-in-from-top-12 fade-in duration-1000">
+         <div className="w-24 h-24 mb-6 relative hover:scale-105 transition-transform duration-500">
+            <Image src="/logo.png" alt="HeyKudu Clinical AI Logo" fill className="object-contain drop-shadow-[0_0_20px_rgba(59,130,246,0.3)]" />
+         </div>
+         <div className="inline-flex items-center justify-center space-x-2 bg-blue-500/10 border border-blue-500/20 px-4 py-1.5 rounded-full mb-6 shadow-sm">
+            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+            <span className="text-[11px] font-black text-blue-400 tracking-[0.2em] uppercase">The Clinical Super-Agent</span>
+         </div>
+         <h1 className="text-4xl sm:text-[3.5rem] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-400 tracking-tight leading-[1.1] mb-6 drop-shadow-sm">
+            Turning medical friction into a <br className="hidden sm:block"/> <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-cyan-400">compounding data asset.</span>
+         </h1>
+         <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-medium">
+            Automating the final mile of medical documentation to structure complex clinical exhaust at zero marginal cost. Instant operational leverage for scaled deployments.
+         </p>
+      </div>
+
+      {/* Main Agentic Root */}
+      <div className="relative z-10 w-full flex flex-col items-center">
+        <AudioRecorder />
+      </div>
+
+    </main>
+  );
+}

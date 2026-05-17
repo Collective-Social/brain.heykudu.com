@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #c91f2c;
+  --color-brand-red-hover: #a11923;
+  --color-bg-subtle: #f8f9fc;
+  --color-primary-text: #202b37;
+  --color-secondary-text: #606d80;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-wave: wave 1.2s ease-in-out infinite;
+
+  @keyframes wave {
+    0%, 100% { height: 16px; }
+    50% { height: 48px; }
+  }
+}
+
+body {
+  background-color: var(--color-bg-subtle);
+  color: var(--color-primary-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
