@@ -37,6 +37,13 @@ export default function Home() {
           </Link>
       </div>
 
+      {/* Footer */}
+      <footer className="relative z-50 w-full mt-auto pb-6 text-center text-[13px] font-medium text-slate-500">
+        <p>
+          &copy; {new Date().getFullYear()} Collective Social. <span className="mx-1 opacity-50">|</span> Built by <a href="https://heykudu.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white hover:underline transition-colors">HeyKudu.com</a>
+        </p>
+      </footer>
+
     </main>
   );
 }
