@@ -21,10 +21,9 @@ if (credentialsJson) {
 }
 
 const genAI = new GoogleGenAI({
-  vertexai: {
-    project: process.env.GOOGLE_CLOUD_PROJECT || 'heykudu',
-    location: process.env.GOOGLE_CLOUD_LOCATION || 'us-central1'
-  }
+  vertexai: true,
+  project: process.env.GOOGLE_CLOUD_PROJECT || 'heykudu',
+  location: process.env.GOOGLE_CLOUD_LOCATION || 'us-central1'
 });
 
 export async function POST(req: Request) {
