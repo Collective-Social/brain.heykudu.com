@@ -185,11 +185,16 @@ export default function AudioRecorder() {
         </button>
 
         <div className="w-full px-4 space-y-6 flex flex-col items-center mt-6">
-          <div className="space-y-2">
-            <h2 className="text-2xl font-black tracking-tight text-white leading-tight mt-6 md:mt-2 drop-shadow-sm">
-              Speak naturally.<br/>We handle the rest.
+          <div className="space-y-2 w-full">
+            <h2 className="text-xl font-black tracking-tight text-white leading-tight mt-6 md:mt-2 drop-shadow-sm">
+              Describe patient context & proposed treatment.
             </h2>
-            <p className="text-sm font-bold text-slate-400 tracking-wide uppercase mt-1">Your Clinical Super Agent</p>
+            <div className="mt-4 text-left bg-black/20 p-4 rounded-xl border border-white/5 shadow-inner">
+              <p className="text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-1.5">Example</p>
+              <p className="text-[13px] text-slate-300 italic leading-relaxed">
+                "45-year-old male presenting with acute AFib. Heart rate is 140. I'm planning to administer Diltiazem."
+              </p>
+            </div>
           </div>
           
           <div className="relative flex flex-col items-center w-full max-w-sm mt-6">
