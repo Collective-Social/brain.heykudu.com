@@ -382,60 +382,7 @@ export default function AudioRecorder() {
             <div className="text-center text-[11px] uppercase tracking-widest font-bold text-slate-500 mt-2 md:hidden animate-pulse">Swipe timeline horizontally →</div>
         </section>
 
-        {/* Massive Stats Grid Header & Grid */}
-        <section className="w-full max-w-4xl mx-auto mt-20 px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4 drop-shadow-md">The Operational Impact</h2>
-            <p className="text-slate-400 text-sm md:text-[15px] leading-relaxed">
-                Applying intelligent agents to historically unscalable bottlenecks translates into immediate, high-margin ROI for clinical operations.
-            </p>
-        </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 px-4 max-w-5xl mx-auto mt-12 mb-32 text-left">
-            
-            <section className="bg-gradient-to-br from-[#14121C]/90 to-[#0A0714]/90 backdrop-blur-md border border-white/5 rounded-[32px] p-8 md:p-10 shadow-2xl transition-transform hover:-translate-y-2 relative overflow-hidden group">
-                <div className="absolute inset-0 bg-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <div className="mb-6 relative z-10">
-                    <div className="text-5xl md:text-7xl font-black text-blue-400 mb-2 drop-shadow-[0_0_30px_rgba(59,130,246,0.3)]">-99%</div>
-                    <h2 className="text-[15px] font-black text-white tracking-[0.2em] uppercase opacity-90">Processing Friction</h2>
-                </div>
-                <p className="text-slate-400 text-[14px] leading-relaxed font-medium relative z-10">
-                    Legacy paper trails and manual distribution cripple operational speed. By removing physical bottlenecks, our platform accelerates data availability from days to milliseconds, fundamentally restructuring workflow unit economics.
-                </p>
-            </section>
-
-            <section className="bg-gradient-to-br from-[#14121C]/90 to-[#0A0714]/90 backdrop-blur-md border border-white/5 rounded-[32px] p-8 md:p-10 shadow-2xl transition-transform hover:-translate-y-2 relative overflow-hidden group">
-                <div className="absolute inset-0 bg-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <div className="mb-6 relative z-10">
-                    <div className="text-5xl md:text-7xl font-black text-emerald-400 mb-2 drop-shadow-[0_0_30px_rgba(16,185,129,0.3)]">+4.5 Hrs</div>
-                    <h2 className="text-[15px] font-black text-white tracking-[0.2em] uppercase opacity-90">Reclaimed Daily</h2>
-                </div>
-                <p className="text-slate-400 text-[14px] leading-relaxed font-medium relative z-10">
-                    Highly trained clinicians spend up to 50% of their day on administrative logging. By automating documentation, we directly translate saved time into a massive expansion of billable patient capacity.
-                </p>
-            </section>
-
-            <section className="bg-gradient-to-br from-[#14121C]/90 to-[#0A0714]/90 backdrop-blur-md border border-white/5 rounded-[32px] p-8 md:p-10 shadow-2xl transition-transform hover:-translate-y-2 relative overflow-hidden group">
-                <div className="absolute inset-0 bg-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <div className="mb-6 relative z-10">
-                    <div className="text-5xl md:text-7xl font-black text-purple-400 mb-2 drop-shadow-[0_0_30px_rgba(168,85,247,0.3)]">&lt; 0.1%</div>
-                    <h2 className="text-[15px] font-black text-white tracking-[0.2em] uppercase opacity-90">Compliance Risk</h2>
-                </div>
-                <p className="text-slate-400 text-[14px] leading-relaxed font-medium relative z-10">
-                    Manual log entries are prone to human error and compliance drift. Our platform introduces real-time, AI-driven guideline verification at the point of entry, catching deviations instantly.
-                </p>
-            </section>
-
-            <section className="bg-gradient-to-br from-[#14121C]/90 to-[#0A0714]/90 backdrop-blur-md border border-white/5 rounded-[32px] p-8 md:p-10 shadow-2xl transition-transform hover:-translate-y-2 relative overflow-hidden group">
-                <div className="absolute inset-0 bg-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <div className="mb-6 relative z-10">
-                    <div className="text-5xl md:text-7xl font-black text-amber-400 mb-2 drop-shadow-[0_0_30px_rgba(245,158,11,0.3)]">5,000 : 1</div>
-                    <h2 className="text-[15px] font-black text-white tracking-[0.2em] uppercase opacity-90">Data Scale Asset</h2>
-                </div>
-                <p className="text-slate-400 text-[14px] leading-relaxed font-medium relative z-10">
-                    Paper archives are a liability. Transforming unstructured records into a queryable digital brain creates a compounding data asset. This enables predictive analytics at zero marginal cost.
-                </p>
-            </section>
-        </div>
 
         {/* Bottom CTA & Back to Top */}
         <section className="w-full max-w-4xl mx-auto mb-20 px-4 text-center animate-in fade-in duration-1000">
