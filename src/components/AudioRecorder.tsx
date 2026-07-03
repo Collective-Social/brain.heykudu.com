@@ -208,8 +208,8 @@ export default function AudioRecorder() {
                  <Mic className="w-6 h-6 relative z-10 drop-shadow-[0_0_10px_rgba(255,50,50,0.8)]" />
                </div>
                <div className="text-left flex-1 relative z-10">
-                 <h3 className="font-black text-white text-[15px] tracking-tight">1. Describe the Patient</h3>
-                 <p className="text-[12px] text-slate-400 font-medium leading-snug mt-1 uppercase tracking-widest">Capture context purely via voice</p>
+                 <h3 className="font-black text-white text-[15px] tracking-tight">1. Record Audio</h3>
+                 <p className="text-[12px] text-slate-400 font-medium leading-snug mt-1 uppercase tracking-widest">Speak your clinical case</p>
                </div>
              </div>
 
