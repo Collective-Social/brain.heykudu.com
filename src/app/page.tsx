@@ -24,15 +24,11 @@ export default function Home() {
          <div className="w-24 h-24 mb-6 relative hover:scale-105 transition-transform duration-500">
             <Image src="/logo.png" alt="HeyKudu Clinical AI Logo" fill className="object-contain drop-shadow-[0_0_20px_rgba(59,130,246,0.3)]" />
          </div>
-         <div className="inline-flex items-center justify-center space-x-2 bg-blue-500/10 border border-blue-500/20 px-4 py-1.5 rounded-full mb-6 shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-            <span className="text-[11px] font-black text-blue-400 tracking-[0.2em] uppercase">The Clinical Super-Agent</span>
-         </div>
          <h1 className="text-4xl sm:text-[3.5rem] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-400 tracking-tight leading-[1.1] mb-6 drop-shadow-sm">
-            Turning medical friction into a <br className="hidden sm:block"/> <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-cyan-400">compounding data asset.</span>
+            Verify your treatment plan against <br className="hidden sm:block"/> <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-cyan-400">the latest guidelines.</span>
          </h1>
          <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-medium">
-            Automating the final mile of medical documentation to structure complex clinical exhaust at zero marginal cost. Instant operational leverage for scaled deployments.
+            Use HeyKudu as an interactive learning tool and virtual senior consultant. Confirm patient context and gain immediate, expert feedback on your understanding of clinical standards.
          </p>
       </div>
 

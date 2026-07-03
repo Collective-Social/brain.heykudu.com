@@ -242,31 +242,7 @@ export default function AudioRecorder() {
                  </div>
              </div>
 
-             {/* Split Flowing Connector */}
-             <div className="flex w-full justify-center h-8 relative my-1">
-               <div className="w-1.5 h-full bg-white/5 rounded-full overflow-hidden relative">
-                   <div className="w-full h-1/2 bg-gradient-to-b from-transparent via-blue-400 to-emerald-400 absolute top-0 animate-data-flow" style={{ animationDelay: '0.6s' }} />
-               </div>
-             </div>
 
-             {/* Map Step 4: Automations Grid (Dark Glass) */}
-             <div className="grid grid-cols-2 gap-3 w-full z-10">
-               <div className="flex flex-col items-center justify-center text-center bg-[#14121C]/80 backdrop-blur-md p-4 rounded-[28px] border border-white/10 hover:border-emerald-500/50 transition-all shadow-sm group relative overflow-hidden">
-                 <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent" />
-                 <div className="bg-emerald-500/20 p-2.5 rounded-full mb-3 shadow-[0_0_15px_rgba(16,185,129,0.2)] transition-transform group-hover:scale-110">
-                    <NotebookPen className="w-5 h-5 text-emerald-400" />
-                 </div>
-                 <span className="text-[12px] font-black tracking-tight text-slate-300 leading-tight">Auto-Populate Logbook</span>
-               </div>
-               
-               <div className="flex flex-col items-center justify-center text-center bg-[#14121C]/80 backdrop-blur-md p-4 rounded-[28px] border border-white/10 hover:border-purple-500/50 transition-all shadow-sm group relative overflow-hidden">
-                 <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-purple-500/50 to-transparent" />
-                 <div className="bg-purple-500/20 p-2.5 rounded-full mb-3 shadow-[0_0_15px_rgba(168,85,247,0.2)] transition-transform group-hover:scale-110">
-                    <Activity className="w-5 h-5 text-purple-400" />
-                 </div>
-                 <span className="text-[12px] font-black tracking-tight text-slate-300 leading-tight">Sync Patient Records</span>
-               </div>
-             </div>
 
           </div>
         </div>
